@@ -1,0 +1,19 @@
+---
+zuul:
+  routes:
+    ALERTS:
+      path: /alerts/**
+      serviceId: ALERTS  
+      sensitiveHeaders:  
+    CASES:
+      path: /cases/**
+      serviceId: CASES  
+      sensitiveHeaders:    
+    RECOMMENDATION:
+      path: /recomendation/**
+      serviceId: RECOMMENDATION
+      sensitiveHeaders:        
+    DISPATCHES:
+      path: /dispatches/**
+      serviceId: DISPATCHES
+      sensitiveHeaders:        
