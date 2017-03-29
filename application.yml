@@ -1,4 +1,7 @@
 ---
+msg:
+  test: connected
+  
 pprc:
   cookie: PPRC_COOKIE
 
