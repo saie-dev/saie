@@ -17,3 +17,11 @@ zuul:
       path: /dispatches/**
       serviceId: DISPATCHES
       sensitiveHeaders:   
+	  METRICS:
+      path: /metrics/**
+      serviceId: METRICS
+      sensitiveHeaders:     
+	  ASSETS:
+      path: /assets/**
+      serviceId: ASSETS
+      sensitiveHeaders:   
