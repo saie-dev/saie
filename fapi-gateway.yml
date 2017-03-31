@@ -25,3 +25,7 @@ zuul:
       path: /assets/**
       serviceId: ASSETS
       sensitiveHeaders:   
+   AUTH:
+      path: /auth/**
+      serviceId: ASSETS
+      sensitiveHeaders: 
