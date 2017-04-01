@@ -28,4 +28,4 @@ zuul:
    AUTH:
       path: /auth/**
       serviceId: AUTH
-      sensitiveHeaders: 
+      sensitiveHeaders: Set-Cookie,Authorization
